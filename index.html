@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <title>Guess Word Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img class="title" src="./assets/Word Scramblle.svg" alt="" />
+
+        <div class="random-word">
+          <p class="text"></p>
+        </div>
+        <div class="info">
+          <div class="info-item steps">
+            <h4 class="counter"></h4>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </div>
+          <div class="info-item mistakes">
+            <h4>Mistakes:</h4>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="input-container"></div>
+        <div class="buttons">
+          <button class="btn random">Random</button>
+          <button class="btn reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/app.js"></script>
+</html>
