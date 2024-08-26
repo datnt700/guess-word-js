@@ -3,7 +3,6 @@ console.log(randomButton);
 
 const words = ['react', 'angular', 'javascript', 'bootstrap', 'tailwind'];
 
-// Initialize display word
 let displayWord = '';
 
 function shuffle(str) {
@@ -114,7 +113,6 @@ function refresh(number) {
 }
 
 randomButton.addEventListener('click', () => {
-  console.log('Random button clicked'); // Xác minh nút bấm có hoạt động
   refresh(5);
 });
 
@@ -124,6 +122,5 @@ document.querySelector('.reset').addEventListener('click', () => {
 });
 
 window.addEventListener('DOMContentLoaded', () => {
-  console.log('DOM fully loaded and parsed');
   refresh(5);
 });
